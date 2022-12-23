@@ -15,8 +15,11 @@ satu. pendeklarasian array sama dengan array berdimensi satu, hanya saja menggun
 dapat dideklarasikan sebagai berikut:<br>
 tipe_data nama_array [jumlah_indeks][jumlah_indeks]<br>
 
-Program ini berfungsi untuk mengubah baris menjadi kolom dan kolom menjadi baris pada array menggunakan bahasa pemrograman C++ 
-dengan memanfaatkan nested loop.
+Program ini berfungsi untuk mengubah baris menjadi kolom dan kolom menjadi baris pada array menggunakan bahasa pemrograman C++. 
+Program dimulai dengan menginputkan jumlah indeks baris dan kolom array yang akan dibuat, lalu program akan meminta untuk 
+menginputkan nilai pada setiap indeks baris dan kolom array. Setelah itu, program menggunakan nested loop untuk menampilkan array yang 
+telah diinputkan. Program juga menggunakan loop untuk menukarkan jumlah indeks baris menjadi kolom dan jumlah indeks kolom menjadi 
+baris, dan juga menukarkan nilai setiap indeks baris menjadi kolom dan nilai indeks kolom menjadi baris.
 
 
 ## Source Code
