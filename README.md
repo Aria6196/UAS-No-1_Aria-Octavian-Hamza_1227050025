@@ -1,4 +1,4 @@
-# Ujian Akhir Semester 
+# Penukaran Baris dan Kolom pada Array Multi-dimensi 
 <br>Mata Kuliah 	: Dasar Pemograman
 <br> Nama		: Aria Octavian Hamza
 <br>NIM		:	1227050025
