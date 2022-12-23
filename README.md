@@ -9,14 +9,23 @@ Array adalah kumpulan beberapa data yang disimpan dalam satu variabel. Jadi, ber
 satu nilai saja, array dapat menampung lebih dari satu nilai. Untuk mendeklarasikan sebuah array dalam C++, kita harus menggunakan tanda [ ] 
 (bracket). Adapun bentuk umum dari pendeklarasian array satu dimensi adalah sebagai berikut:<br>
 
-tipe_data nama_array [jumlah_indeks]<br>
+```cpp
+tipe_data nama_array [jumlah_indeks];
+```
 
 Selain itu array juga dapat dideklarasikan sebagai array multi-dimensi. Array multi-dimensi merupakan array yang mempunyai ukuran lebih dari 
 satu. pendeklarasian array sama dengan array berdimensi satu, hanya saja menggunakan tanda [ ] (bracket) tambahan. Array multi-dimensi 
 dapat dideklarasikan sebagai berikut:<br>
 
-tipe_data nama_array [jumlah_indeks][jumlah_indeks] (Array 2-dimensi)<br>
-tipe_data naam_array [jumlah_indeks][jumlah_indeks][jumlah_indeks] (Array 3-dimensi)<br>
+#### Array 2-Dimensi
+```cpp
+tipe_data nama_array [jumlah_indeks][jumlah_indeks];
+```
+
+#### Array 3-Dimensi
+```cpp
+tipe_data nama_array [jumlah_indeks][jumlah_indeks][jumlah_indeks];
+```
 
 Program ini berfungsi untuk mengubah baris menjadi kolom dan kolom menjadi baris pada array menggunakan bahasa pemrograman C++. 
 Program dimulai dengan menginputkan jumlah indeks baris dan kolom array yang akan dibuat, lalu program akan meminta untuk 
